@@ -1,0 +1,36 @@
+# Ignore all dotfiles...
+.*
+# except for .gitignore  and .npmrc
+!.gitignore
+!.npmrc
+!.eslintrc
+
+eclipse
+lib
+log
+logs
+modules
+precompiled
+project/project
+project/target
+target
+tmp
+test-result
+server.pid
+*.iml
+*.eml
+*.iws
+*.ipr
+*.jar
+
+
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
